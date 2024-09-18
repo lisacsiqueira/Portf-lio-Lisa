@@ -1,0 +1,148 @@
+/*Confg geral*/
+
+*{
+    /*resetando a configuração do navedador*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(255, 218, 239);
+
+}
+
+a{
+    text-decoration: none;
+
+}
+header{
+    width: 100%;
+    background: rgb(133, 120, 127);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    align-items: center;
+
+
+}
+
+header nav ul{
+    display: flex;
+    gap: 30px; /*set espaçamento entre colunas no display flex*/
+    list-style-type: none;
+
+}
+
+header nav ul li a{
+    color: white;
+    font-weight: bolder;
+
+}
+
+.logo {
+    width: 80px;
+    border-radius: 10px;
+    /*background-color: black;*/
+    
+    
+}
+.logo img {
+    width: 100%; /* A imagem ocupa toda a largura da div logo */
+    height: auto; /* Mantém a proporção da altura */
+    display: block; /* Remove espaçamento em torno da imagem */
+    object-fit: contain; /* Garante que a imagem não saia da caixa do logo */
+    border-radius: 10%;
+}
+
+
+.primeiraVisualizacao{
+    width: 100%;
+    height: 500px;
+    background-image: url("1.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    color:rgb(36, 6, 20);
+    text-align: center;
+}
+
+section div{
+    background: rgba(231, 208, 220, 0.6);
+    width: 100%;
+    height: 500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+
+main{
+    display: flex;
+    width: 100%;
+    background-color: rgba(39, 35, 37, 0.6);
+    padding: 0 50px; /* empurra os elementos*/
+}
+
+main div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+main .conteudo{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.imgMain img{
+    border-radius: 6%;
+}
+
+main div img{
+    max-width: 100%;
+    padding: 20px;
+    height: auto;
+}
+
+footer{
+    width: 100%;
+    padding: 20px;
+    background: #333;
+    color: white;
+    text-align: center;
+}
+
+footer nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+
+footer nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
